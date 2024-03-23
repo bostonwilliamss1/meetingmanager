@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		903B20432BAA53440078C860 /* tutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B20422BAA53440078C860 /* tutorialApp.swift */; };
-		903B20452BAA53440078C860 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B20442BAA53440078C860 /* ContentView.swift */; };
+		903B20452BAA53440078C860 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B20442BAA53440078C860 /* MeetingView.swift */; };
 		903B20472BAA53460078C860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903B20462BAA53460078C860 /* Assets.xcassets */; };
 		903B204B2BAA53460078C860 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903B204A2BAA53460078C860 /* Preview Assets.xcassets */; };
 		903B20552BAA53460078C860 /* tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B20542BAA53460078C860 /* tutorialTests.swift */; };
 		903B205F2BAA53470078C860 /* tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B205E2BAA53470078C860 /* tutorialUITests.swift */; };
 		903B20612BAA53470078C860 /* tutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B20602BAA53470078C860 /* tutorialUITestsLaunchTests.swift */; };
+		903B206F2BAA59A40078C860 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B206E2BAA59A40078C860 /* Theme.swift */; };
+		903B20712BAA5AB10078C860 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B20702BAA5AB10078C860 /* DailyScrum.swift */; };
+		903B20732BAA5C800078C860 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903B20722BAA5C800078C860 /* CardView.swift */; };
+		90FF560F2BAF433900D7EC29 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF560E2BAF433900D7EC29 /* TrailingIconLabelStyle.swift */; };
+		90FF56132BAF455400D7EC29 /* ScrumViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF56122BAF455400D7EC29 /* ScrumViews.swift */; };
+		90FF56152BAF520D00D7EC29 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF56142BAF520D00D7EC29 /* DetailView.swift */; };
+		90FF56172BAF5A1700D7EC29 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF56162BAF5A1700D7EC29 /* DetailEditView.swift */; };
+		90FF56192BAF6B0600D7EC29 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF56182BAF6B0600D7EC29 /* ThemeView.swift */; };
+		90FF561B2BAF6C4100D7EC29 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF561A2BAF6C4100D7EC29 /* ThemePicker.swift */; };
+		90FF561D2BAF7B0700D7EC29 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF561C2BAF7B0700D7EC29 /* MeetingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		903B203F2BAA53440078C860 /* tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		903B20422BAA53440078C860 /* tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialApp.swift; sourceTree = "<group>"; };
-		903B20442BAA53440078C860 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		903B20442BAA53440078C860 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		903B20462BAA53460078C860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903B20482BAA53460078C860 /* tutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tutorial.entitlements; sourceTree = "<group>"; };
 		903B204A2BAA53460078C860 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +55,16 @@
 		903B205A2BAA53460078C860 /* tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		903B205E2BAA53470078C860 /* tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialUITests.swift; sourceTree = "<group>"; };
 		903B20602BAA53470078C860 /* tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		903B206E2BAA59A40078C860 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		903B20702BAA5AB10078C860 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		903B20722BAA5C800078C860 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		90FF560E2BAF433900D7EC29 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		90FF56122BAF455400D7EC29 /* ScrumViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumViews.swift; sourceTree = "<group>"; };
+		90FF56142BAF520D00D7EC29 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		90FF56162BAF5A1700D7EC29 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		90FF56182BAF6B0600D7EC29 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		90FF561A2BAF6C4100D7EC29 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		90FF561C2BAF7B0700D7EC29 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +115,11 @@
 		903B20412BAA53440078C860 /* tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				90D412012BAF8AA700AA3C5A /* Views */,
+				903B206D2BAA59780078C860 /* Models */,
 				903B20422BAA53440078C860 /* tutorialApp.swift */,
-				903B20442BAA53440078C860 /* ContentView.swift */,
+				90FF560E2BAF433900D7EC29 /* TrailingIconLabelStyle.swift */,
+				90FF561A2BAF6C4100D7EC29 /* ThemePicker.swift */,
 				903B20462BAA53460078C860 /* Assets.xcassets */,
 				903B20482BAA53460078C860 /* tutorial.entitlements */,
 				903B20492BAA53460078C860 /* Preview Content */,
@@ -127,6 +150,29 @@
 				903B20602BAA53470078C860 /* tutorialUITestsLaunchTests.swift */,
 			);
 			path = tutorialUITests;
+			sourceTree = "<group>";
+		};
+		903B206D2BAA59780078C860 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				903B206E2BAA59A40078C860 /* Theme.swift */,
+				903B20702BAA5AB10078C860 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90D412012BAF8AA700AA3C5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90FF56122BAF455400D7EC29 /* ScrumViews.swift */,
+				90FF56162BAF5A1700D7EC29 /* DetailEditView.swift */,
+				903B20722BAA5C800078C860 /* CardView.swift */,
+				903B20442BAA53440078C860 /* MeetingView.swift */,
+				90FF561C2BAF7B0700D7EC29 /* MeetingHeaderView.swift */,
+				90FF56142BAF520D00D7EC29 /* DetailView.swift */,
+				90FF56182BAF6B0600D7EC29 /* ThemeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903B20452BAA53440078C860 /* ContentView.swift in Sources */,
+				90FF561B2BAF6C4100D7EC29 /* ThemePicker.swift in Sources */,
+				903B20712BAA5AB10078C860 /* DailyScrum.swift in Sources */,
+				90FF56152BAF520D00D7EC29 /* DetailView.swift in Sources */,
+				90FF561D2BAF7B0700D7EC29 /* MeetingHeaderView.swift in Sources */,
+				90FF56172BAF5A1700D7EC29 /* DetailEditView.swift in Sources */,
+				90FF560F2BAF433900D7EC29 /* TrailingIconLabelStyle.swift in Sources */,
+				903B206F2BAA59A40078C860 /* Theme.swift in Sources */,
+				903B20452BAA53440078C860 /* MeetingView.swift in Sources */,
+				90FF56132BAF455400D7EC29 /* ScrumViews.swift in Sources */,
 				903B20432BAA53440078C860 /* tutorialApp.swift in Sources */,
+				90FF56192BAF6B0600D7EC29 /* ThemeView.swift in Sources */,
+				903B20732BAA5C800078C860 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
