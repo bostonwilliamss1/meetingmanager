@@ -14,7 +14,6 @@ The language I was using was Swift. Which is iOS developing language.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Apple](https://developer.apple.com/tutorials/app-dev-training/)
 * [Chat GPT](https://chat.openai.com/)
 
